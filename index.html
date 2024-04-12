@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <script src="https://kit.fontawesome.com/688eeff5d9.js" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@simondmc/popup-js@1.4.3/popup.min.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="#">
+            <h1 class="logo">PT</h1>
+        </a>
+
+    </header>
+    <section class="corpo">
+        <div class="form">
+            <div class="pesquisa">
+                <input class="input" type="text" placeholder="Cidade">
+                <button class="btn-pesquisa" onclick="clickBtn()">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="resposta">
+                <div class="linha cidade">
+                    <p><i class="fa-solid fa-location-dot"></i></p>
+                </div>
+                <div class="linha">
+                    <p class="descricao">Temperatura:</p>
+                    <p class="temp">
+                        <i class="fa-solid fa-temperature-three-quarters"></i>
+                    </p>
+                </div>
+                <div class="linha">
+                    <p class="descricao">Umidade:</p>
+                    <p class="umid"><i class="fa-solid fa-droplet"></i></p>
+                </div>
+                <div class="linha">
+                    <p class="descricao">Descrição:</p>
+                    <p class="prec"></p>
+                </div>
+            </div>
+            <button class="btn-detalhes">Mais detalhes</button>
+        </div>
+    </section>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
