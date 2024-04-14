@@ -9,6 +9,7 @@
 @media(max-width: 620px){
     .cabecalho{
         padding: 30px;
+        flex-direction: column;
         justify-content: center;
     }
 
@@ -37,17 +38,7 @@
     }
     
     .pesquisa .btn-pesquisa {
-        background: none;
-        border: 1px solid #fff;
-        border-radius: 50px;
-        color: #fff;
-        padding: 15px;
         font-size: 15px;
-        font-weight: 600;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
     }
 
     .linha{
@@ -82,17 +73,7 @@
     }
     
     .pesquisa .btn-pesquisa {
-        background: none;
-        border: 1px solid #fff;
-        border-radius: 50px;
-        color: #fff;
-        padding: 15px;
-        font-size: 15px;
-        font-weight: 600;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
+        font-size: 10px;
     }
 
     .linha{
